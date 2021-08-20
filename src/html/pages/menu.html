@@ -1,0 +1,22 @@
+<div id="toggleMenu" onclick="toggleMenu()"></div>
+<nav id="menu">
+    <ul>
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./index.html#page2">Profil</a></li>
+        <li><a href="./skies.html">Formation</a></li>
+        <li><a href="./projet.html">Expérience </a></li>
+        <li><a href="veille.html">Veille Informative</a></li>
+    </ul>
+</nav>
+<script>
+    var toggleStatus = 0;
+    function toggleMenu() {
+        if (toggleStatus == 1) {
+            document.getElementById("menu").style.right = "-200px";
+            toggleStatus = 0;
+        } else if (toggleStatus == 0) {
+            document.getElementById("menu").style.right = "-0px";
+            toggleStatus = 1;
+        }
+    }
+</script>

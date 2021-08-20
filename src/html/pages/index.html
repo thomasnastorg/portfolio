@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" type="image/svg" href="../resource/logo.svg" />
+    <link rel="stylesheet" href="../style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/typed/typed.js"></script>
+    <title>Thomas Nastorg</title>
+    <script>
+        $(function(){
+            $("#includedContent").load("./menu.html");
+        });
+    </script>
+</head>
+
+<body>
+
+<div id="includedContent"></div>
+      <section id="page1">
+        <div class ="centre">
+            <div  id="typed"></div>
+        </div>
+        <script>
+            $('document').ready(function(){
+                var typed = new Typed('#typed', {
+                strings:["Bienvenue","Welcome","herzlich willkommen","어서 오십시오","欢迎"],
+                backspeed: 60,
+                typeSpeed: 50,
+                loop:true
+                 });
+            });
+    </script>
+
+
+<a href="#page2" class ="arrow">
+
+
+</a>
+ <div id="container"></div>
+
+
+     <script src=../js/threejs/three.js></script>
+    <script src=../js/threejs/OrbitControls.js></script>
+    <script src=../js/threejs/script.js></script>
+    </section>
+    <section id="page2">
+
+
+        <img src="../resource/img.png" height="160" width="160"/>
+
+            <h1> Thomas Nastorg</h1>
+        <div class="card">
+
+            <div class="container">
+
+                <p>bla bla bla bla bla bla bla bla bla bla bla bla bla <br>
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla <br>
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla
+                </p>
+            </div>
+        </div>
+
+</section>
+
+</body>
+</html>
